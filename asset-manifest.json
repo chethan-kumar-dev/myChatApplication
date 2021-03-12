@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/myChatApplication/static/css/main.9ff37e5d.chunk.css",
-    "main.js": "/myChatApplication/static/js/main.9418babf.chunk.js",
-    "main.js.map": "/myChatApplication/static/js/main.9418babf.chunk.js.map",
+    "main.css": "/myChatApplication/static/css/main.3bb9ac72.chunk.css",
+    "main.js": "/myChatApplication/static/js/main.a42d560a.chunk.js",
+    "main.js.map": "/myChatApplication/static/js/main.a42d560a.chunk.js.map",
     "runtime-main.js": "/myChatApplication/static/js/runtime-main.8144e68a.js",
     "runtime-main.js.map": "/myChatApplication/static/js/runtime-main.8144e68a.js.map",
-    "static/js/2.8923361d.chunk.js": "/myChatApplication/static/js/2.8923361d.chunk.js",
-    "static/js/2.8923361d.chunk.js.map": "/myChatApplication/static/js/2.8923361d.chunk.js.map",
+    "static/js/2.d79b1f0b.chunk.js": "/myChatApplication/static/js/2.d79b1f0b.chunk.js",
+    "static/js/2.d79b1f0b.chunk.js.map": "/myChatApplication/static/js/2.d79b1f0b.chunk.js.map",
     "index.html": "/myChatApplication/index.html",
-    "static/css/main.9ff37e5d.chunk.css.map": "/myChatApplication/static/css/main.9ff37e5d.chunk.css.map",
-    "static/js/2.8923361d.chunk.js.LICENSE.txt": "/myChatApplication/static/js/2.8923361d.chunk.js.LICENSE.txt"
+    "static/css/main.3bb9ac72.chunk.css.map": "/myChatApplication/static/css/main.3bb9ac72.chunk.css.map",
+    "static/js/2.d79b1f0b.chunk.js.LICENSE.txt": "/myChatApplication/static/js/2.d79b1f0b.chunk.js.LICENSE.txt",
+    "static/media/alexander-shatov-PEJtZfT6C1Q-unsplash.d6014c59.jpg": "/myChatApplication/static/media/alexander-shatov-PEJtZfT6C1Q-unsplash.d6014c59.jpg",
+    "static/media/style.css": "/myChatApplication/static/media/patrick-hendry-mhZ5yySOPe8-unsplash.f75bc9f4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8144e68a.js",
-    "static/js/2.8923361d.chunk.js",
-    "static/css/main.9ff37e5d.chunk.css",
-    "static/js/main.9418babf.chunk.js"
+    "static/js/2.d79b1f0b.chunk.js",
+    "static/css/main.3bb9ac72.chunk.css",
+    "static/js/main.a42d560a.chunk.js"
   ]
 }
