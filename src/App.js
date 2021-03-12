@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import './style.css';
+import image from "./images/alexander-shatov-PEJtZfT6C1Q-unsplash.jpg"
 
 import firebase from 'firebase/app';
 import 'firebase/firestore';
@@ -29,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>⚛️🔥💬</h1>
+        <img src={image} style={{width:"60px"}} alt=""></img>
         <SignOut />
       </header>
 
@@ -101,9 +102,9 @@ function ChatRoom() {
 
     <form onSubmit={sendMessage}>
 
-      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
+      <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Type message here..... "/>
 
-      <button type="submit" disabled={!formValue}>🕊️</button>
+      <button type="submit" disabled={!formValue}>send</button>
 
     </form>
   </>)

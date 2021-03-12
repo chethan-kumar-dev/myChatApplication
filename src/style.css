@@ -30,7 +30,12 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-    background-color: white;
+    background-image: url("./images/patrick-hendry-mhZ5yySOPe8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(20px);
+    
   }
   
   main {
@@ -55,9 +60,9 @@ body {
   }
   
   form {
-    height: 6vh;
+    height: 8vh;
     position: fixed;
-    bottom: 0;
+    bottom: 0px;
     background-color: rgb(66, 44, 44);
     width: 100%;
     max-width: 728px;
