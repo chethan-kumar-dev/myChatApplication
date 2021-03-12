@@ -70,7 +70,7 @@ body {
   }
   
   form button {
-    width: 20%;
+  
     background-color: rgb(56, 56, 143);
   }
   
@@ -86,7 +86,12 @@ body {
     padding: 0 10px;
    
   }
-  
+  .sign-out{
+      width: 150px;
+      left: -20px;
+      position: relative;
+      border-radius: 10px;
+  }
   button {
     background-color: #282c34; /* Green */
     border: none;

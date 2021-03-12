@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState,useEffect } from 'react';
 import './style.css';
 import image from "./images/alexander-shatov-PEJtZfT6C1Q-unsplash.jpg"
 
@@ -23,8 +23,11 @@ const auth = firebase.auth();
 const firestore = firebase.firestore();
 
 
+
+
 function App() {
 
+  
   const [user] = useAuthState(auth);
 
   return (
@@ -91,6 +94,11 @@ function ChatRoom() {
     dummy.current.scrollIntoView({ behavior: 'smooth' });
   }
 
+
+  
+
+
+  
   return (<>
     <main>
 
@@ -105,7 +113,7 @@ function ChatRoom() {
       <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="Type message here..... "/>
 
       <button type="submit" disabled={!formValue}>send</button>
-
+     
     </form>
   </>)
 }
